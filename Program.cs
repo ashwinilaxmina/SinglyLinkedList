@@ -10,6 +10,13 @@ namespace SinglyLinkedList
     {
         static void Main(string[] args)
         {
+            SinglyLinkedList list = new SinglyLinkedList();
+            list.AddFirst(1);
+            list.AddFirst(10);
+            //Console.WriteLine("Items in the list are: ");
+            //list.PrintList();
+            //Console.ReadLine();
+            
         }
     }
 }
